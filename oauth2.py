@@ -2,6 +2,7 @@ import requests
 import json
 import webbrowser
 import os
+import PySimpleGUI
 
 def auth_flow():
     # oauth2 authentication flow
