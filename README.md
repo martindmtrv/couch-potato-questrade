@@ -1,5 +1,5 @@
 # couch-potato-questrade
-Portfolio Balancer for Questrade!
+Portfolio Balancer for the Questrade online brokerage
 
 This nifty little program will calculate the quantity of shares you need to buy and sell to reach your target asset allocation for your Questrade self-directed investment account! IMPORTANT NOTE: this program does not make any trades on your behalf, it is simply a glorified calculator for your investments!
 
