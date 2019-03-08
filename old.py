@@ -6,10 +6,10 @@ import PySimpleGUI as sg
 
 def auth_flow():
     # oauth2 authentication flow
-    client_id = 'Esw5KFjjfgBJAAlB3YIs2NlDG6sz2Q'
+    client_id = 'Q8498gkRB_PYy1T2YItNAGOLVG_JsId70'
 
     # open browser and get login
-    webbrowser.open('https://practicelogin.questrade.com/oauth2/authorize?client_id='+ client_id +'&response_type=code&redirect_uri=https://martindmtrv.github.io/redirect.html')
+    webbrowser.open('https://practicelogin.questrade.com/oauth2/token?grant_type=refresh_token&refresh_token='+ client_id +'&response_type=code&redirect_uri=https://martindmtrv.github.io/redirect.html')
 
     # wait for user to input response code (from browser redirect)
     layout = [  [sg.Text('Paste redirect code from browser (string after ?code=)')],
